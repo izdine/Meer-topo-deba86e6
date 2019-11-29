@@ -12,8 +12,9 @@ for ($i=0; $i < $a ; $i++) {
     echo "Welk land wil je toevoegen?";
     $topo[$b = readline()] = $c = readline(" Wat is de hoofdstad van " . $b . "?");
 }
-foreach ($topo as $key => $value) {
-}
     echo " De volgende landen en steden zitten in de database " . PHP_EOL;
-    echo $key . "," . $value;
+foreach ($topo as $key => $value) {
+  echo $key . "," . $value;
+}
+
  ?>
